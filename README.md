@@ -2,6 +2,7 @@
 SpringBoot connect H2 database with Hibernate
 
 1. Overview
+
 This project shows you how to connect H2 database with Hibernate.
 After you run MyApplication.java, Spring Boot will start up and meanwhile H2 database will also start.
 It will create Book tale according to @Entity annotation automatically and run import.sql under sr/main/resources folder to insert data automatically.
