@@ -10,7 +10,8 @@ Then when you access http://localhost:8080/books, it will display the 3 records 
 
 2. How to use H2?
 
-refer to  https://www.h2database.com/html/quickstart.html
+Refer to  https://www.h2database.com/html/quickstart.html
+
 In this project, we add h2 dependency in pom.xml
 		<dependency>
 		    <groupId>com.h2database</groupId>
@@ -19,6 +20,7 @@ In this project, we add h2 dependency in pom.xml
 		</dependency>
 so there is a h2-xxx.jar.
 when Spring Boot start up, the h2 database is also started.
+
 I add h2 jdbc url in application.properties
 spring.datasource.url=jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
 Without this item, it will generate a random string as h2 database name when h2 start.
