@@ -34,17 +34,6 @@
 			</exclusions>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore -->
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpcore</artifactId>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-		</dependency>
-		
 		<!-- Hibernate with H2 database -->
 		<dependency>
 		    <groupId>org.springframework.boot</groupId>
