@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "com.example.demo", "com.example.service" })
+@ComponentScan(basePackages = { "com.example.domain", "com.example.service", "com.example.restservice" })
 public class MyApplication {
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(MyApplication.class, args);
